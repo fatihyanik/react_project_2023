@@ -6,7 +6,7 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-        pokemon.map((item,index) => {
+        pokemon.map((item, index) => {
           return (
             <div key={index}>
               <div
