@@ -8,8 +8,8 @@
 .app {
     width: 100%;
     min-height: 100vh;
-    background: #F4BFBF;
-    color: black;
+    background: #bfdff4;
+    color: rgb(34, 13, 112);
     font-weight: bold;
     display: flex;
 }
@@ -21,19 +21,17 @@
     padding: 30px;
     display: flex;
     flex-direction: column;
-    background-color: #FFD9C0;
+    background-color: #c0efff;
 }
 
 .app .container .randomNum {
     background: #FAF0D7;
     padding: 20px;
     min-width: 100%;
-
-
 }
 
 .app .container .randomNum p span {
-    color: red;
+    color: rgb(88, 22, 97);
     font-weight: bold;
 }
 
@@ -55,7 +53,7 @@
     outline: none;
     width: 100%;
     background: #FAF0D7;
-    color: red;
+    color: rgb(88, 22, 97);
     font-weight: bold;
 }
 
@@ -64,7 +62,7 @@
     border: none;
     outline: none;
     background: #FAF0D7;
-    color: black;
+    color: #832929;
     font-weight: bold;
     padding: 14px;
     width: 100%;
