@@ -6,7 +6,7 @@ function Homepage() {
     <div
       className='homepage'
       style={{
-        backgroundImage: 'url(" + "../images/background.jpg" + ")',
+        backgroundImage: "url(" + "../images/background.jpg" + ")",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

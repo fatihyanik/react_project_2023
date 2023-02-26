@@ -1,20 +1,20 @@
-const Searchbox = () => {
+import React from "react";
+
+function Searchbox() {
   return (
-    <div className='app'>
+    <div className='homepage-input'>
       <form action='/search' method='get'>
-        <div className='search'>
-          <input
-             name="city"
-             placeholder="Please write your location"
-             autoComplete="off"
-          />
-        </div>
+        <input
+          name='city'
+          placeholder='Please write your location'
+          autoComplete='off'
+        />
         <div className='btn'>
           <button>Click</button>
         </div>
       </form>
     </div>
   );
-};
+}
 
 export default Searchbox;
